@@ -1,0 +1,55 @@
+{
+  "hash": "5f45fe33",
+  "configHash": "5277460c",
+  "lockfileHash": "74391159",
+  "browserHash": "ae4bdaff",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "a2828992",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "ffda6ce7",
+      "needsInterop": true
+    },
+    "lucide-react": {
+      "src": "../../node_modules/lucide-react/dist/esm/lucide-react.js",
+      "file": "lucide-react.js",
+      "fileHash": "c08c624e",
+      "needsInterop": false
+    },
+    "class-variance-authority": {
+      "src": "../../node_modules/class-variance-authority/dist/index.mjs",
+      "file": "class-variance-authority.js",
+      "fileHash": "2c447dc9",
+      "needsInterop": false
+    },
+    "clsx": {
+      "src": "../../node_modules/clsx/dist/clsx.mjs",
+      "file": "clsx.js",
+      "fileHash": "22eb9a19",
+      "needsInterop": false
+    },
+    "tailwind-merge": {
+      "src": "../../node_modules/tailwind-merge/dist/bundle-mjs.mjs",
+      "file": "tailwind-merge.js",
+      "fileHash": "575a5670",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-4X3XUJ2M": {
+      "file": "chunk-4X3XUJ2M.js"
+    },
+    "chunk-KDVGFZWC": {
+      "file": "chunk-KDVGFZWC.js"
+    },
+    "chunk-G3PMV62Z": {
+      "file": "chunk-G3PMV62Z.js"
+    }
+  }
+}
