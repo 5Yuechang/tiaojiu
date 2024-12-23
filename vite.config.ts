@@ -4,7 +4,7 @@ import path from 'path'
 
 export default defineConfig({
     plugins: [react()],
-    base: '/V4-11-Hall-A/',
+    base: '/tiaojiu/',  // 改为新仓库名
     build: {
         outDir: 'dist',
         assetsDir: 'assets',
