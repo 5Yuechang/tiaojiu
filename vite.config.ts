@@ -1,18 +1,17 @@
 ﻿import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import path from 'path'
 
 export default defineConfig({
     plugins: [react()],
-    base: '/tiaojiu/',  // 改为新仓库名
+    base: '/tiaojiu/',
     build: {
         outDir: 'dist',
-        assetsDir: 'assets',
         rollupOptions: {
             output: {
-                assetFileNames: `assets/[name].[hash].[ext]`,
-                chunkFileNames: `assets/[name].[hash].js`,
-                entryFileNames: `assets/[name].[hash].js`,
+                // 将资源文件放在根目录下
+                assetFileNames: '[name].[hash].[ext]',
+                chunkFileNames: '[name].[hash].js',
+                entryFileNames: '[name].[hash].js'
             }
         }
     }
