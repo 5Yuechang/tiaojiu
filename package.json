@@ -1,7 +1,7 @@
 {
   "name": "tiaojiu",
   "version": "1.0.0",
-  ""homepage": "https://5yuechang.github.io/tiaojiu/"
+  "homepage": "https://5yuechang.github.io/tiaojiu/",
   "description": "",
   "scripts": {
     "dev": "vite",
