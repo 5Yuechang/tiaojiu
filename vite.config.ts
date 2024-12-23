@@ -3,15 +3,14 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
     plugins: [react()],
-    base: '/tiaojiu/',
+    base: './',  // 改为相对路径
     build: {
         outDir: 'dist',
         rollupOptions: {
             output: {
-                // 将资源文件放在根目录下
-                assetFileNames: '[name].[hash].[ext]',
-                chunkFileNames: '[name].[hash].js',
-                entryFileNames: '[name].[hash].js'
+                assetFileNames: 'assets/[name].[hash].[ext]',
+                chunkFileNames: 'assets/[name].[hash].js',
+                entryFileNames: 'assets/[name].[hash].js'
             }
         }
     }
