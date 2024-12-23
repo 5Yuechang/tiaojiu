@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
     plugins: [react()],
-    base: './',  // 改为相对路径
+    base: '/tiaojiu/',  // 改回仓库名
     build: {
         outDir: 'dist',
         rollupOptions: {
