@@ -1,42 +1,1335 @@
-﻿[
+[
   {
     "id": 1,
-    "name": "莫吉托",
-    "englishName": "Mojito",
+    "name": "伪电气白兰",
+    "englishName": "False Denkibran",
     "ingredients": [
       {
-        "name": "白朗姆",
-        "amount": "60ml"
-      },
-      {
-        "name": "青柠汁",
-        "amount": "30ml"
-      },
-      {
-        "name": "糖浆",
+        "name": "白兰地",
         "amount": "15ml"
       },
       {
-        "name": "薄荷叶",
-        "amount": "6-8片"
+        "name": "圣哲曼接骨木花利口",
+        "amount": "15ml"
       },
       {
-        "name": "苏打水",
-        "amount": "适量"
+        "name": "君度",
+        "amount": "10ml"
+      },
+      {
+        "name": "苏姿利口酒",
+        "amount": "20ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "7.5ml"
+      },
+      {
+        "name": "",
+        "amount": "苏打水补满"
       }
     ],
-    "method": "1. 在杯中放入薄荷叶和糖浆\n2. 轻轻研磨薄荷叶\n3. 加入白朗姆和青柠汁\n4. 加入碎冰并搅拌\n5. 最后用苏打水补满\n6. 轻轻搅拌即可",
-    "glass": "高球杯",
-    "category": "Classic Cocktail",
-    "difficulty": "Easy",
-    "description": "清爽提神的经典鸡尾酒",
-    "garnish": "薄荷叶, 青柠片",
+    "method": "在长饮杯中加入冰块，将前五种材料直注入杯中，稍微搅拌融合，加入苏打水注满，提拉融合。",
+    "glass": "柯林杯",
+    "category": "unknown",
+    "difficulty": "高",
+    "description": "喝下后肚中会生出🌸花朵",
+    "garnish": "青柠片 青柠干",
     "tutorials": [
       {
-        "platform": "bilibili",
-        "url": "https://www.bilibili.com/video/xxx",
-        "title": "标准莫吉托制作教程",
-        "author": "调酒师小明"
+        "platform": "unknown",
+        "url": "https://www.xiaohongshu.com/explore/64b14692000000002f0290a3?xsec_token=AB2Sh8m0VpFhbw7j27S2QYY-9l0TZwFzavXUi_86t0pfs=&xsec_source=pc_search&m_source=mengfanwetab&source=web_explore_feed",
+        "title": "伪电气白兰调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "强尼·银手",
+    "englishName": "johnny silverhand",
+    "ingredients": [
+      {
+        "name": "",
+        "amount": "柠檬汁"
+      },
+      {
+        "name": "",
+        "amount": "辣椒粉"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "60ml"
+      },
+      {
+        "name": "",
+        "amount": "龙舌兰糖浆四分之一盎司"
+      },
+      {
+        "name": "",
+        "amount": "橙味苦酒"
+      },
+      {
+        "name": "",
+        "amount": "橘味苦酒"
+      },
+      {
+        "name": "",
+        "amount": "墨西哥啤酒"
+      }
+    ],
+    "method": "一杯老式龙舌兰，加点啤酒和辣椒",
+    "glass": "古典杯",
+    "category": "unknown",
+    "difficulty": "高",
+    "description": "我们永不消逝",
+    "garnish": "辣椒",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1Fy4y1D7FT?spm_id_from=333.788.recommend_more_video.1&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "强尼·银手调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "午后之死",
+    "englishName": "death in the afternoon",
+    "ingredients": [
+      {
+        "name": "苦艾酒30",
+        "amount": "30ml"
+      },
+      {
+        "name": "香槟90",
+        "amount": "90ml"
+      }
+    ],
+    "method": "香槟杯中加入冰块，搅拌至杯壁起霜。倒出冰块和融水。倒入苦艾酒。缓慢倒入冰镇的香槟，用吧勺轻轻搅拌至酒业浑浊",
+    "glass": "马提尼杯",
+    "category": "unknown",
+    "difficulty": "低",
+    "description": "绝无仅有的酒鬼也处于醉酒的危险之中",
+    "garnish": "unknown",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1mv411J7ag/?spm_id_from=333.1387.favlist.content.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "午后之死调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "草原牡蛎",
+    "englishName": "Prairie Oyster",
+    "ingredients": [
+      {
+        "name": "",
+        "amount": "鸡蛋黄"
+      },
+      {
+        "name": "",
+        "amount": "伍斯特郡调料"
+      },
+      {
+        "name": "",
+        "amount": "Tabaso"
+      },
+      {
+        "name": "",
+        "amount": "黑胡椒粒"
+      },
+      {
+        "name": "金酒",
+        "amount": "30ml"
+      }
+    ],
+    "method": "加一个蛋黄、少许盐、少许黑胡椒粉、几滴伍斯特酱、一滴辣椒酱(Tabasco/Cholula)和30毫升Beefeater金酒",
+    "glass": "unknown",
+    "category": "unknown",
+    "difficulty": "中",
+    "description": "话说回来，你这喝法还真够倒胃口的",
+    "garnish": "unknown",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1LR4y117hD/?spm_id_from=333.1387.favlist.content.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "草原牡蛎调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "干马天尼",
+    "englishName": "Dry Martini",
+    "ingredients": [
+      {
+        "name": "金酒",
+        "amount": "50ml"
+      },
+      {
+        "name": "威末酒",
+        "amount": "10ml"
+      }
+    ],
+    "method": "unknown",
+    "glass": "马提尼杯",
+    "category": "unknown",
+    "difficulty": "低",
+    "description": "鸡尾酒中较佳杰作",
+    "garnish": "柠檬 橄榄",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1G5411a7Tf/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "干马天尼调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "曼哈顿",
+    "englishName": "Manhattan",
+    "ingredients": [
+      {
+        "name": "威士忌45",
+        "amount": "45ml"
+      },
+      {
+        "name": "味美思",
+        "amount": "10ml"
+      },
+      {
+        "name": "",
+        "amount": "苦精"
+      }
+    ],
+    "method": "unknown",
+    "glass": "蝶形杯",
+    "category": "unknown",
+    "difficulty": "中",
+    "description": "unknown",
+    "garnish": "樱桃",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1V5411a7Pz/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "曼哈顿调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "古典",
+    "englishName": "Old Fashioned",
+    "ingredients": [
+      {
+        "name": "",
+        "amount": "一块"
+      },
+      {
+        "name": "苦精2",
+        "amount": "2ml"
+      },
+      {
+        "name": "波本威士忌2盎",
+        "amount": "2ml"
+      }
+    ],
+    "method": "unknown",
+    "glass": "古典杯",
+    "category": "unknown",
+    "difficulty": "中",
+    "description": "经典永不过时",
+    "garnish": "柠檬皮卷橙子皮卷",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1uV41127au/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "古典调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "玛格丽特",
+    "englishName": "Margarita",
+    "ingredients": [
+      {
+        "name": "龙舌兰",
+        "amount": "45ml"
+      },
+      {
+        "name": "君度",
+        "amount": "25ml"
+      },
+      {
+        "name": "",
+        "amount": "柠檬汁"
+      },
+      {
+        "name": "",
+        "amount": "盐"
+      }
+    ],
+    "method": "unknown",
+    "glass": "玛格丽特杯",
+    "category": "unknown",
+    "difficulty": "中",
+    "description": "unknown",
+    "garnish": "柠檬片",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1pK411p7F2/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "玛格丽特调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "血腥玛丽",
+    "englishName": "bloody mary",
+    "ingredients": [
+      {
+        "name": "伏特加",
+        "amount": "45ml"
+      },
+      {
+        "name": "番茄汁",
+        "amount": "80ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "15ml"
+      },
+      {
+        "name": "",
+        "amount": "盐"
+      },
+      {
+        "name": "",
+        "amount": "胡椒"
+      },
+      {
+        "name": "",
+        "amount": "辣椒汁三注"
+      }
+    ],
+    "method": "unknown",
+    "glass": "古典杯",
+    "category": "unknown",
+    "difficulty": "高",
+    "description": "unknown",
+    "garnish": "西芹 柠檬片",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1PZ4y1p71x/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "血腥玛丽调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "萨泽拉克",
+    "englishName": "Sazerac",
+    "ingredients": [
+      {
+        "name": "威士忌",
+        "amount": "60ml"
+      },
+      {
+        "name": "",
+        "amount": "苦精二注"
+      },
+      {
+        "name": "",
+        "amount": "方糖一块"
+      }
+    ],
+    "method": "unknown",
+    "glass": "古典杯",
+    "category": "unknown",
+    "difficulty": "高",
+    "description": "unknown",
+    "garnish": "橙子皮",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1dy4y1u7Ae/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "萨泽拉克调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "椰林飘香",
+    "englishName": "pina colada",
+    "ingredients": [
+      {
+        "name": "朗姆酒",
+        "amount": "60ml"
+      },
+      {
+        "name": "椰子利口",
+        "amount": "15ml"
+      },
+      {
+        "name": "菠萝汁",
+        "amount": "50ml"
+      },
+      {
+        "name": "椰子浆",
+        "amount": "50ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "5ml"
+      },
+      {
+        "name": "",
+        "amount": "柠檬汁少许"
+      }
+    ],
+    "method": "unknown",
+    "glass": "飓风杯",
+    "category": "unknown",
+    "difficulty": "中",
+    "description": "菠萝茂盛的山谷",
+    "garnish": "菠萝",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV13T4y1E796/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "椰林飘香调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "薄荷朱丽普",
+    "englishName": "MintJulep",
+    "ingredients": [
+      {
+        "name": "威士忌",
+        "amount": "60ml"
+      },
+      {
+        "name": "",
+        "amount": "砂糖半勺"
+      },
+      {
+        "name": "",
+        "amount": "薄荷叶"
+      },
+      {
+        "name": "",
+        "amount": "苏打水少许"
+      }
+    ],
+    "method": "unknown",
+    "glass": "高球杯",
+    "category": "unknown",
+    "difficulty": "低",
+    "description": "据说“朱丽普”在波斯语中即“玫瑰”，故在酒中加入有玫瑰类香味之水的饮料就叫“朱丽普”。",
+    "garnish": "薄荷",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1wK411g7Cj/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "薄荷朱丽普调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "边车",
+    "englishName": "Side Car",
+    "ingredients": [
+      {
+        "name": "白兰地",
+        "amount": "40ml"
+      },
+      {
+        "name": "柑橘酒",
+        "amount": "20ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "15ml"
+      }
+    ],
+    "method": "unknown",
+    "glass": "马提尼杯",
+    "category": "unknown",
+    "difficulty": "低",
+    "description": "unknown",
+    "garnish": "橘子皮",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1cr4y1w7Rg/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "边车调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "长岛冰茶",
+    "englishName": "Long Island Iced Tea",
+    "ingredients": [
+      {
+        "name": "金酒",
+        "amount": "15ml"
+      },
+      {
+        "name": "朗姆酒",
+        "amount": "15ml"
+      },
+      {
+        "name": "伏特加",
+        "amount": "15ml"
+      },
+      {
+        "name": "龙舌兰",
+        "amount": "15ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "15ml"
+      },
+      {
+        "name": "君度",
+        "amount": "15ml"
+      },
+      {
+        "name": "白砂糖",
+        "amount": ""
+      },
+      {
+        "name": "可乐",
+        "amount": ""
+      }
+    ],
+    "method": "unknown",
+    "glass": "高球杯",
+    "category": "unknown",
+    "difficulty": "中",
+    "description": "unknown",
+    "garnish": "柠檬片",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1cp4y197k2/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "长岛冰茶调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "丛林鸟",
+    "englishName": "Jungle Bird",
+    "ingredients": [
+      {
+        "name": "朗姆酒",
+        "amount": "45ml"
+      },
+      {
+        "name": "苦橙酒",
+        "amount": "25ml"
+      },
+      {
+        "name": "菠萝汁",
+        "amount": "45ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "15ml"
+      }
+    ],
+    "method": "unknown",
+    "glass": "古典杯",
+    "category": "unknown",
+    "difficulty": "低",
+    "description": "unknown",
+    "garnish": "菠萝小鸟",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV11s4y1Q7S2/?spm_id_from=333.337.search-card.all.click",
+        "title": "丛林鸟调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "白色佳人",
+    "englishName": "White Lady",
+    "ingredients": [
+      {
+        "name": "金酒",
+        "amount": "45ml"
+      },
+      {
+        "name": "",
+        "amount": "柠檬汁"
+      },
+      {
+        "name": "白橙皮",
+        "amount": "25ml"
+      }
+    ],
+    "method": "unknown",
+    "glass": "马提尼杯",
+    "category": "unknown",
+    "difficulty": "低",
+    "description": "unknown",
+    "garnish": "柠檬片",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1eQ4y1k7G3/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "白色佳人调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "大魔鬼",
+    "englishName": "EL DIABLO",
+    "ingredients": [
+      {
+        "name": "龙舌兰",
+        "amount": "45ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "5ml"
+      },
+      {
+        "name": "醋栗利口酒",
+        "amount": "10ml"
+      },
+      {
+        "name": "",
+        "amount": "姜汁苏打水"
+      }
+    ],
+    "method": "unknown",
+    "glass": "高球杯",
+    "category": "unknown",
+    "difficulty": "中",
+    "description": "unknown",
+    "garnish": "青柠皮",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1nv411r78k/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "大魔鬼调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "大都会",
+    "englishName": "Cosmopolitan",
+    "ingredients": [
+      {
+        "name": "伏特加",
+        "amount": "30ml"
+      },
+      {
+        "name": "君度",
+        "amount": "10ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "15ml"
+      },
+      {
+        "name": "蔓越莓",
+        "amount": "15ml"
+      }
+    ],
+    "method": "unknown",
+    "glass": "马提尼杯",
+    "category": "unknown",
+    "difficulty": "中",
+    "description": "unknown",
+    "garnish": "橘子皮",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1LD4y1Q7i4/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "大都会调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "僵尸",
+    "englishName": "zombie",
+    "ingredients": [
+      {
+        "name": "",
+        "amount": "朗姆酒"
+      },
+      {
+        "name": "",
+        "amount": "苦艾酒"
+      },
+      {
+        "name": "",
+        "amount": "杏仁酒"
+      },
+      {
+        "name": "",
+        "amount": "菠萝汁"
+      },
+      {
+        "name": "",
+        "amount": "柠檬汁"
+      },
+      {
+        "name": "",
+        "amount": "红糖水"
+      },
+      {
+        "name": "",
+        "amount": "百香果"
+      }
+    ],
+    "method": "unknown",
+    "glass": "tiki 杯",
+    "category": "unknown",
+    "difficulty": "unknown",
+    "description": "unknown",
+    "garnish": "unknown",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1yA411G7ah/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "僵尸调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "翻云覆雨",
+    "englishName": "HANKY PANKY",
+    "ingredients": [
+      {
+        "name": "金酒",
+        "amount": "50ml"
+      },
+      {
+        "name": "红味美思",
+        "amount": "30ml"
+      },
+      {
+        "name": "非奈特",
+        "amount": "8ml"
+      }
+    ],
+    "method": "unknown",
+    "glass": "马提尼杯",
+    "category": "unknown",
+    "difficulty": "低",
+    "description": "unknown",
+    "garnish": "橘子皮",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1524y177xL/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "翻云覆雨调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "卡琵利亚",
+    "englishName": "CAIPIRINHA",
+    "ingredients": [
+      {
+        "name": "巴西甘蔗酒",
+        "amount": "50ml"
+      },
+      {
+        "name": "青柠汁",
+        "amount": "15ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "5ml"
+      },
+      {
+        "name": "",
+        "amount": "青柠半个"
+      }
+    ],
+    "method": "unknown",
+    "glass": "古典杯",
+    "category": "unknown",
+    "difficulty": "中",
+    "description": "unknown",
+    "garnish": "柠檬片",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1A44y1k7wR/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "卡琵利亚调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "汤姆·柯林斯",
+    "englishName": "TOM COLLINS",
+    "ingredients": [
+      {
+        "name": "金酒",
+        "amount": "60ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "20ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "20ml"
+      }
+    ],
+    "method": "unknown",
+    "glass": "高球杯",
+    "category": "unknown",
+    "difficulty": "中",
+    "description": "unknown",
+    "garnish": "樱桃柠檬",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1JA411w7K8/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "汤姆·柯林斯调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "竹子",
+    "englishName": "Bamboo",
+    "ingredients": [
+      {
+        "name": "雪莉酒",
+        "amount": "50ml"
+      },
+      {
+        "name": "味美思",
+        "amount": "25ml"
+      },
+      {
+        "name": "",
+        "amount": "苦精"
+      }
+    ],
+    "method": "unknown",
+    "glass": "马提尼杯",
+    "category": "unknown",
+    "difficulty": "中",
+    "description": "unknown",
+    "garnish": "竹子",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1HP4y1u7KG/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "竹子调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "遗言",
+    "englishName": "Last Word",
+    "ingredients": [
+      {
+        "name": "金酒",
+        "amount": "25ml"
+      },
+      {
+        "name": "黑樱桃利口",
+        "amount": "25ml"
+      },
+      {
+        "name": "查特酒",
+        "amount": "25ml"
+      },
+      {
+        "name": "",
+        "amount": "柠檬汁"
+      }
+    ],
+    "method": "1.波士顿摇壶中加入金酒25毫升； 2.加入黑樱桃利口酒25毫升； 3.加入查特酒25毫升； 4.半个柠檬压汁； 5.搅拌，偷喝（不是）； 6.加冰shake； 7.过滤入冰镇过的马天尼杯； 8.挤压柠檬皮，放入酒杯装饰。",
+    "glass": "马提尼杯",
+    "category": "unknown",
+    "difficulty": "中",
+    "description": "unknown",
+    "garnish": "柠檬皮",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV17L411378Q/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "遗言调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "爱尔兰咖啡",
+    "englishName": "Irish Coffee",
+    "ingredients": [
+      {
+        "name": "爱尔兰威士忌",
+        "amount": "30ml"
+      },
+      {
+        "name": "",
+        "amount": "咖啡"
+      },
+      {
+        "name": "",
+        "amount": "奶油"
+      },
+      {
+        "name": "",
+        "amount": "盐"
+      },
+      {
+        "name": "",
+        "amount": "肉桂粉"
+      },
+      {
+        "name": "方糖1",
+        "amount": "1ml"
+      }
+    ],
+    "method": "unknown",
+    "glass": "尼克诺拉杯",
+    "category": "unknown",
+    "difficulty": "高",
+    "description": "unknown",
+    "garnish": "肉桂",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1Lr4y137YC/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "爱尔兰咖啡调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "飞行",
+    "englishName": "Aviation",
+    "ingredients": [
+      {
+        "name": "金酒",
+        "amount": "45ml"
+      },
+      {
+        "name": "紫罗兰",
+        "amount": "10ml"
+      },
+      {
+        "name": "樱桃利口",
+        "amount": "15ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "15ml"
+      }
+    ],
+    "method": "unknown",
+    "glass": "马提尼杯",
+    "category": "unknown",
+    "difficulty": "中",
+    "description": "unknown",
+    "garnish": "柠檬皮樱桃",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1gA411V7Lj/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "飞行调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "贝里尼",
+    "englishName": "BELLINI",
+    "ingredients": [
+      {
+        "name": "",
+        "amount": "香槟"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "3ml"
+      },
+      {
+        "name": "",
+        "amount": "桃子半个"
+      },
+      {
+        "name": "红石榴糖浆",
+        "amount": "5ml"
+      }
+    ],
+    "method": "unknown",
+    "glass": "碟形香槟杯",
+    "category": "unknown",
+    "difficulty": "中",
+    "description": "unknown",
+    "garnish": "unknown",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1BU4y1h7C1/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "贝里尼调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "白兰地库斯塔",
+    "englishName": "Brandy Crusta",
+    "ingredients": [
+      {
+        "name": "白兰地",
+        "amount": "45ml"
+      },
+      {
+        "name": "柑橘酒",
+        "amount": "10ml"
+      },
+      {
+        "name": "樱桃利口",
+        "amount": "10ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "10ml"
+      },
+      {
+        "name": "",
+        "amount": "苦精二注"
+      },
+      {
+        "name": "",
+        "amount": "柑橘皮"
+      }
+    ],
+    "method": "①撒入白砂糖，使用冷冻酒杯或者糖浆来制作糖壳①撒入白砂糖，使用冷冻酒杯或者糖浆来制作糖壳②加入于邑白兰地45ml 柑橘酒10ml 柠檬汁10ml 樱桃利口10ml 苦精二注 加入冰块",
+    "glass": "玛格丽特杯",
+    "category": "unknown",
+    "difficulty": "中",
+    "description": "unknown",
+    "garnish": "柑橘皮",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1Av4y1m7s5/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "白兰地库斯塔调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "荆棘",
+    "englishName": "BRAMBLE",
+    "ingredients": [
+      {
+        "name": "金酒",
+        "amount": "45ml"
+      },
+      {
+        "name": "黑莓利口酒",
+        "amount": "15ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "10ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "20ml"
+      }
+    ],
+    "method": "unknown",
+    "glass": "洛克杯",
+    "category": "unknown",
+    "difficulty": "低",
+    "description": "unknown",
+    "garnish": "柠檬片 黑莓",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1h64y1m7xj/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "荆棘调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "拉莫斯金菲士",
+    "englishName": "Ramos gin fizz",
+    "ingredients": [
+      {
+        "name": "金酒",
+        "amount": "50ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "20ml"
+      },
+      {
+        "name": "",
+        "amount": "奶油"
+      },
+      {
+        "name": "糖浆",
+        "amount": "10ml"
+      },
+      {
+        "name": "",
+        "amount": "苏打水"
+      },
+      {
+        "name": "橙花水",
+        "amount": "10ml"
+      }
+    ],
+    "method": "unknown",
+    "glass": "柯林杯",
+    "category": "unknown",
+    "difficulty": "高",
+    "description": "unknown",
+    "garnish": "unknown",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1kp4y1k7Kp/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "拉莫斯金菲士调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "杏仁酸",
+    "englishName": "Amaretto Sour",
+    "ingredients": [
+      {
+        "name": "杏仁甜酒",
+        "amount": "40ml"
+      },
+      {
+        "name": "柠檬汁",
+        "amount": "20ml"
+      },
+      {
+        "name": "糖浆",
+        "amount": "5ml"
+      },
+      {
+        "name": "",
+        "amount": "橙片"
+      },
+      {
+        "name": "",
+        "amount": "樱桃"
+      },
+      {
+        "name": "威士忌",
+        "amount": "15ml"
+      }
+    ],
+    "method": "unknown",
+    "glass": "古典杯",
+    "category": "unknown",
+    "difficulty": "中",
+    "description": "unknown",
+    "garnish": "柠檬皮 樱桃",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1v34y1P7zW/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "杏仁酸调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "美国佬",
+    "englishName": "Americano",
+    "ingredients": [
+      {
+        "name": "金巴利",
+        "amount": "25ml"
+      },
+      {
+        "name": "甜味美思",
+        "amount": "30ml"
+      },
+      {
+        "name": "",
+        "amount": "气泡水适量"
+      }
+    ],
+    "method": "unknown",
+    "glass": "柯林杯",
+    "category": "unknown",
+    "difficulty": "低",
+    "description": "unknown",
+    "garnish": "柠檬皮",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1zU4y1A7NX/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "美国佬调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "老广场",
+    "englishName": "Vieux Carre",
+    "ingredients": [
+      {
+        "name": "干邑",
+        "amount": "30ml"
+      },
+      {
+        "name": "黑麦威士忌",
+        "amount": "30ml"
+      },
+      {
+        "name": "味美思",
+        "amount": "10ml"
+      },
+      {
+        "name": "廊酒",
+        "amount": "一吧勺"
+      },
+      {
+        "name": "苦精",
+        "amount": "一注"
+      }
+    ],
+    "method": "unknown",
+    "glass": "马提尼杯",
+    "category": "unknown",
+    "difficulty": "中",
+    "description": "unknown",
+    "garnish": "樱桃",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1Q84y1R7WF/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "老广场调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "皮斯科酸",
+    "englishName": "Pisco sour",
+    "ingredients": [
+      {
+        "name": "皮斯科酒",
+        "amount": "60ml"
+      },
+      {
+        "name": "",
+        "amount": "柠檬"
+      },
+      {
+        "name": "糖浆",
+        "amount": "20ml"
+      },
+      {
+        "name": "",
+        "amount": "蛋白"
+      },
+      {
+        "name": "",
+        "amount": "苦精"
+      }
+    ],
+    "method": "unknown",
+    "glass": "尼克诺拉杯",
+    "category": "unknown",
+    "difficulty": "中",
+    "description": "unknown",
+    "garnish": "unknown",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV15V411v7iR/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "皮斯科酸调制教程",
+        "author": "unknown"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "帕洛玛",
+    "englishName": "Paloma",
+    "ingredients": [],
+    "method": "unknown",
+    "glass": "unknown",
+    "category": "unknown",
+    "difficulty": "unknown",
+    "description": "unknown",
+    "garnish": "unknown",
+    "tutorials": [
+      {
+        "platform": "unknown",
+        "url": "https://www.bilibili.com/video/BV1UU4y1p7As/?spm_id_from=333.337.search-card.all.click&vd_source=324439a27eacb370465253168e6033f3",
+        "title": "帕洛玛调制教程",
+        "author": "unknown"
       }
     ]
   }
