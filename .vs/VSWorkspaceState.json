@@ -1,6 +1,7 @@
 {
   "ExpandedNodes": [
     "",
+    "\\dist",
     "\\src",
     "\\src\\components",
     "\\src\\components\\ui",
@@ -9,6 +10,6 @@
     "\\src\\pages",
     "\\src\\types"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\src\\data\\cocktails.json",
   "PreviewInSolutionExplorer": false
 }
