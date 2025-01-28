@@ -25,8 +25,8 @@
         "amount": "7.5ml"
       },
       {
-        "name": "",
-        "amount": "苏打水补满"
+        "name": "苏打水",
+        "amount": "补满"
       }
     ],
     "method": "在长饮杯中加入冰块，将前五种材料直注入杯中，稍微搅拌融合，加入苏打水注满，提拉融合。",
@@ -91,11 +91,11 @@
     "englishName": "death in the afternoon",
     "ingredients": [
       {
-        "name": "苦艾酒30",
+        "name": "苦艾酒",
         "amount": "30ml"
       },
       {
-        "name": "香槟90",
+        "name": "香槟",
         "amount": "90ml"
       }
     ],
@@ -260,7 +260,7 @@
         "amount": "40ml"
       },
       {
-        "name": "君度橙酒",
+        "name": "君度",
         "amount": "20ml"
       },
       {
@@ -453,7 +453,7 @@
         "amount": "60ml"
       },
       {
-        "name": "君度力娇酒",
+        "name": "君度",
         "amount": "30ml"
       },
       {
@@ -502,7 +502,7 @@
         "amount": "15ml"
       },
       {
-        "name": "君度橙酒",
+        "name": "君度",
         "amount": "15ml"
       },
       {

@@ -13,7 +13,6 @@ const CocktailFinder: FC = () => {
     const [searchTerm, setSearchTerm] = useState<string>("")
     const [favorites, setFavorites] = useState<FavoritesState>({ items: [] })
     const [showOnlyFavorites, setShowOnlyFavorites] = useState<boolean>(false)
-    const [isDarkMode, setIsDarkMode] = useState<boolean>(false)
 
     // 加载配方数据
     useEffect(() => {
@@ -65,26 +64,42 @@ const CocktailFinder: FC = () => {
     // 修改 matchedCocktails 部分代码
     const matchedCocktails = useMemo(() => {
         // 先处理收藏夹的情况
+        let filteredCocktails = cocktails;
+
         if (showOnlyFavorites) {
-            return cocktails
-                .filter(cocktail => isFavorited(cocktail.id))
+            filteredCocktails = filteredCocktails.filter(cocktail => isFavorited(cocktail.id));
         }
 
-        // 如果没有选择任何原料，返回空数组
-        if (selectedIngredients.length === 0) {
-            return []
+        // 如果有搜索词，搜索名称和英文名
+        if (searchTerm) {
+            const searchLower = searchTerm.toLowerCase();
+            filteredCocktails = filteredCocktails.filter(cocktail =>
+                cocktail.name.toLowerCase().includes(searchLower) ||
+                cocktail.englishName.toLowerCase().includes(searchLower) ||
+                cocktail.ingredients.some(i =>
+                    i.name.toLowerCase().includes(searchLower)
+                )
+            );
+            return filteredCocktails;
+        }
+        // 如果没有选择任何原料且不是在查看收藏夹，返回空数组
+        if (selectedIngredients.length === 0 && !showOnlyFavorites) {
+            return [];
         }
 
         // 如果选择了原料，进行匹配
-        return cocktails
-            .filter(cocktail =>
+        if (selectedIngredients.length > 0) {
+            filteredCocktails = filteredCocktails.filter(cocktail =>
                 selectedIngredients.every(ingredient =>
                     cocktail.ingredients.some(i =>
                         i.name.toLowerCase().includes(ingredient.toLowerCase())
                     )
                 )
-            )
-    }, [cocktails, selectedIngredients, favorites.items, showOnlyFavorites])
+            );
+        }
+
+        return filteredCocktails;
+    }, [cocktails, selectedIngredients, searchTerm, favorites.items, showOnlyFavorites]);
 
     // 切换原料选择
     const toggleIngredient = (ingredient: string): void => {
@@ -124,25 +139,10 @@ const filteredItems = useMemo(() => {
         ))
     }
 
-    useEffect(() => {
-        if (isDarkMode) {
-            document.documentElement.classList.add('dark')
-        } else {
-            document.documentElement.classList.remove('dark')
-        }
-    }, [isDarkMode])
 
     return (
         <div className="w-full max-w-4xl mx-auto dark:bg-gray-900 transition-colors duration-200">
-            <div className="fixed top-4 right-4 z-50">
-                <button
-                    onClick={() => setIsDarkMode(!isDarkMode)}
-                    className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
-                    aria-label="Toggle dark mode"
-                >
-                    {isDarkMode ? '🌞' : '🌙'}
-                </button>
-            </div>
+            
 
             <div className="text-center mb-6">
                 <h1 className="text-2xl font-bold text-gray-800 dark:text-gray-100 italic">
@@ -168,7 +168,7 @@ const filteredItems = useMemo(() => {
                     <div className="mb-4">
                         <input
                             type="text"
-                            placeholder="Search ingredients..."
+                            placeholder="Search by name or ingredients..."
                             value={searchTerm}
                             onChange={(e) => setSearchTerm(e.target.value)}
                             className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -253,7 +253,9 @@ const filteredItems = useMemo(() => {
                                         {cocktail.ingredients.map(({ name, amount }, index) => (
                                             <span
                                                 key={`${name}-${index}`}
-                                                className={`px-3 py-1 rounded-full ${selectedIngredients.includes(name)
+                                                className={`px-3 py-1 rounded-full ${selectedIngredients.some(ingredient =>
+                                                    name.toLowerCase().includes(ingredient.toLowerCase())
+                                                )
                                                         ? "bg-green-100 shadow-sm"
                                                         : "bg-gray-100"
                                                     }`}
