@@ -10,7 +10,7 @@ interface NavigationProps {
 
 const Navigation = ({ currentPage, onPageChange }: NavigationProps) => {
     return (
-        <div className="fixed bottom-0 left-0 right-0 bg-background border-t">
+        <div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg">
             <div className="max-w-4xl mx-auto px-4 py-2 flex justify-center space-x-4">
                 <Button
                     variant={currentPage === 'home' ? 'default' : 'ghost'}

@@ -97,8 +97,27 @@ const CocktailFinder: FC = () => {
                 )
             );
         }
+        // 修改百分比计算和排序
+        return filteredCocktails.map(cocktail => {
+            // 计算该配方中匹配选中标签的数量
+            const matchedCount = selectedIngredients.filter(ingredient =>
+                cocktail.ingredients.some(i =>
+                    i.name.toLowerCase().includes(ingredient.toLowerCase())
+                )
+            ).length;
 
-        return filteredCocktails;
+            // 计算配方总共需要的原料数量
+            const totalIngredients = cocktail.ingredients.length;
+
+            // 计算匹配度百分比（选中的标签数量 / 配方总原料数量）
+            const matchPercentage = (matchedCount / totalIngredients) * 100;
+
+            return {
+                ...cocktail,
+                matchPercentage
+            };
+        }).sort((a, b) => b.matchPercentage - a.matchPercentage);
+
     }, [cocktails, selectedIngredients, searchTerm, favorites.items, showOnlyFavorites]);
 
     // 切换原料选择
@@ -233,6 +252,11 @@ const filteredItems = useMemo(() => {
                                     <span className="text-sm text-gray-500 ml-2">
                                         {cocktail.englishName}
                                     </span>
+                                    {selectedIngredients.length > 0 && (
+                                        <span className="text-sm text-gray-500 ml-2">
+                                            匹配度: {cocktail.matchPercentage.toFixed(0)}%
+                                        </span>
+                                    )}
                                 </div>
                                 <div className="flex items-center gap-4">
                                     <button
